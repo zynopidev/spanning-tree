@@ -1,0 +1,15 @@
+Readresace --> 10.0.0.0/ 8 -> 10.0.0.0/16
+
+R1 - Change Subnet Mask on subinterface Gig0/0.10 from 255.0.0.0 to 255.255.0.0
+
+S1 - Change IP and Subnet from: VLAN 10 -> 10.0.1.10/8 -> 10.10.0.1/16
+
+S2 - Change IP and Subnet from: 10.0.2.10/8 -> 10.10.0.2/16
+
+Change IP's of computers:
+PC0 - 10.10.0.63/16
+PC1 - 10.10.0.64/16
+PC2 - 10.10.0.65/16
+PC3 - 10.10.0.66/16
+
+R2 - Change IP routing from: 10.0.0.0 255.0.0.0 195.7.4.1/31 --> 10.0.0.0 255.255.0.0 195.7.4.1/31
